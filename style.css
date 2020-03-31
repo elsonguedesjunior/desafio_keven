@@ -1,0 +1,35 @@
+.media{
+    padding-bottom: 10px;
+    border-bottom: 1px solid #c4c4c4
+}
+.img-media{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+}  
+
+
+input[type="text"]:focus,
+input[type="text"]:active{
+    box-shadow: none;
+    outline: none;
+    border:1px solid #1167e9;
+}
+
+@media(max-width:767px){
+    
+    .mt-mobile{
+        margin-top: 30px;
+    }
+}
+
+@media(max-width:1024px){
+    .media{
+        flex-direction: column;
+    }
+    .img-media{
+        margin-left:auto;
+        margin-right:auto
+    }
+}
